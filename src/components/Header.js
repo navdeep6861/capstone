@@ -1,7 +1,9 @@
-import logo from './../Logo.svg';
+import Nav from './Nav';
 const Header = () => {
-    return <header>
-            <img src={logo} alt="logo" />
-        </header>
+    return (
+        <header className="navbar">        
+            <Nav />
+        </header> 
+    )
 };
 export default Header;    
