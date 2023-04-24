@@ -433,8 +433,13 @@ footer .navigation nav ul li a{
     .grid{
         grid-template-columns: 1fr 1fr;
     }
-   .about .grid{
+    
+    .about .grid{
         grid-template-columns: 1fr;
+    }
+
+    .weekSpecialsTitle h1{
+        line-height: 1;
     }
 }
 
@@ -446,7 +451,9 @@ footer .navigation nav ul li a{
 }
 
 @media (max-width: 600px) {
-
+    .weeksSpecialsContent .onlineMenu{
+        justify-self: center;
+    }
     .hero img{
         width: 215px;
         height: 215px;

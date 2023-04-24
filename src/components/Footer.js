@@ -22,9 +22,9 @@ const Footer = () => {
                     <span>Contact</span>
                     <nav>
                         <ul>
-                            <li><a href="#">Address</a></li>
-                            <li><a href="#">Phone number</a></li>
-                            <li><a href="#">Email</a></li>
+                            <li><a href="#">2645 Grant Suite</a></li>
+                            <li><a href="#">202-555-0195</a></li>
+                            <li><a href="#">contact@test.com</a></li>
                         </ul>
                     </nav>
                 </div>
