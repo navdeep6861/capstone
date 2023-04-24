@@ -1,4 +1,3 @@
-
 const TestimonialItem = (props) => {
     const rating = [];    
     for(let i=0;i<Math.floor(props.rating);i++){
@@ -14,7 +13,7 @@ const TestimonialItem = (props) => {
                 {rating}
             </div>
             <div className="profile">
-                <img src={require(`./../images/${props.name}.jpg`)} alt="Andy" />
+                <img src={props.image} alt="Andy" />
                 <span>Andy</span>
             </div>
             <span className="comment">{props.comment}</span>

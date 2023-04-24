@@ -1,7 +1,7 @@
 const SpecialItem = (props) => {    
     return (
         <div className="item">
-            <img src={require(`./../images/${props.image}`)} alt={props.name} />
+            <img src={props.image} alt={props.name} />
             <div className="titlePrice">
                 <h4>{props.name}</h4>
                 <span>{props.price}</span>
